@@ -131,6 +131,7 @@ public class UserModel {
      * This method will concatenate user id and username
      * and return as string.
      */
+    @Override
     public String toString() {
         return String.format("%d %s", User_ID, User_Name);
     }
